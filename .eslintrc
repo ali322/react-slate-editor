@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["standard", "plugin:react/recommended"],
+  "plugins": ["react", "babel"],
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-return-assign": "off"
+  }
+}
